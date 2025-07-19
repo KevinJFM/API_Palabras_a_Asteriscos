@@ -20,3 +20,9 @@ coverage
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+// Resetear GitHub para borrar las carpetas 
+
+// git rm -r --cached .kiro
+// git add .
+// git commit -m "Eliminar carpeta .kiro del repositorio"
