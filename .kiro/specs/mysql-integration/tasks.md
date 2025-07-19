@@ -123,7 +123,12 @@
   - Crear pruebas para casos de error
   - _Requirements: 4.1, 4.2_
 
-- [ ] 12. Documentar API
+- [x] 12. Documentar API
+
+
+
+
+
   - Crear documentación para nuevos endpoints
   - Actualizar documentación para endpoints existentes
   - _Requirements: 2.1, 2.2, 2.3, 3.1, 3.2, 3.3_
