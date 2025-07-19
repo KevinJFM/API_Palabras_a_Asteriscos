@@ -44,6 +44,9 @@ const obtenerPalabra = async (req, res) => {
     
     const palabra = await palabrasService.obtenerPalabra(parseInt(id));
     
+    // Mostrar en consola
+    console.log('\n' + palabra.representacion + '\n');
+
     res.json(palabra);
   } catch (error) {
     console.error('Error al obtener palabra:', error);
