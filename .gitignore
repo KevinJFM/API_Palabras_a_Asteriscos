@@ -1,3 +1,19 @@
-.gitignore/
-node_modules/
-.end/
+# Dependencias
+node_modules
+
+# Archivos de entorno
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de cobertura
+coverage
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
